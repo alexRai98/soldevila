@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,600&display=swap');
+body{
+  font-family: 'Dosis',sans-serif;
+}
+
+  /* header */
+#header {
+  background-color: #fff !important;
+}
+#header img{
+  height: 40px;
+}
+.profe{
+  color: #94cac5 !important;
+}
+.profe:hover{
+  color: #60c5bc !important;
+}
+  /* /header */
+
+  /* carousel */
+#main .carousel-inner img{
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+#carousel{
+  position: relative;
+}
+#main .overlay{
+z-index: 1;
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background-color:rgba(0,0,0,0.5) ;
+ color: white;
+
+}
+#carousel .overlay .container,#carousel .overlay .row{
+  height: 100%;
+}
+#carousel .overlay .container p{
+  font-size: 20px;
+}
+.btn-button{
+  background-color: #94cac5 !important;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.btn-button:hover{
+  background-color: #60c5bc !important;
+  color: white;
+}
+
+  /* /carousel */
+
+  /* activities */
+
+  #carouselExampleControls img,#carouselExampleControls2 img,
+  #carouselExampleControls3 img{
+    height: 250px;
+    object-fit: cover;
+  }
+
+  /* /activities */
+
+  /* place */
+
+  #place{
+    background-color: #343a40 ;
+    color: white;
+
+  }
+  #place img{
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  /* /place */
+
+  /* footer */
+footer{
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+  color: white;
+}
+#footer a{
+  text-decoration: none;
+  color: white;
+}
+#footer a:hover{
+  color: #60c5bc;
+}
+
+  /* /footer */
